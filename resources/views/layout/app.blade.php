@@ -9,7 +9,7 @@
     <!-- META DATA -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="utf-8"/>
-    <meta name="author" content="Baker Furniture"/>
+    <meta name="author" content="Double A Group"/>
     <meta name="description"
           content="Explore an impressive collection of contemporary and traditional furniture, upholstery, lighting and accessories for the living and dining rooms, bedroom and more. "/>
     <meta name="keywords"
@@ -55,10 +55,10 @@
 {{--    <link rel="dns-prefetch" href="http://s7d4.scene7.com/"/>--}}
 
 <!-- ICONS -->
-    <link rel="apple-touch-icon" sizes="57x57"
-          href="{{asset('assets/media/favicons/baker/apple-touch-icon-57x57.png')}}">
-    <link rel="apple-touch-icon" sizes="60x60"
-          href="{{asset('assets/media/favicons/baker/apple-touch-icon-60x60.png')}}">
+{{--    <link rel="apple-touch-icon" sizes="57x57"--}}
+{{--          href="{{asset('assets/media/favicons/baker/apple-touch-icon-57x57.png')}}">--}}
+{{--    <link rel="apple-touch-icon" sizes="60x60"--}}
+{{--          href="{{asset('assets/media/favicons/baker/apple-touch-icon-60x60.png')}}">--}}
     {{--    <link rel="apple-touch-icon" sizes="72x72" href="assets/media/favicons/baker/apple-touch-icon-72x72.png">--}}
     {{--    <link rel="apple-touch-icon" sizes="76x76" href="assets/media/favicons/baker/apple-touch-icon-76x76.png">--}}
     {{--    <link rel="apple-touch-icon" sizes="114x114" href="assets/media/favicons/baker/apple-touch-icon-114x114.png">--}}
@@ -76,7 +76,7 @@
 
     <!-- OPENGRAPH SHARING -->
     <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="Baker Furniture"/>
+    <meta property="og:site_name" content="Double A Group"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="og:title" content="Contemporary Furniture for Living, Dining, Bedrooms and Workspace"/>
     <meta property="og:description"
@@ -94,6 +94,214 @@
 
 <div class="site">
     <div class="site-hd noindex">
+
+        <div class="mastheadSmall hideAboveSmall" id="js-masthead-mastheadSmall" style="background-color: #15172c;">
+            <ul class="mastheadSmall-menu" id="js-masthead-mobileMenuView">
+                <li class="mastheadSmall-menu-item">
+                    <button class="btn btn_cylon" data-menu-role="expander" data-menu-name="hamburger" >
+                        <svg class="inlineSvg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                             viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve"
+                             aria-labelledby="menuTitle" role="img">
+                        <title id="menuTitle">Mobile menu</title>
+                            <g class="inlineSvg-menu" style="fill: #ffffff;">
+                                <path class="inlineSvg-menu-path inlineSvg-menu-path_1"
+                                      d="M28.1,21.1H1.8c-1,0-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8h26.3c1,0,1.8-0.8,1.8-1.8S29.1,21.1,28.1,21.1z"/>
+                                <path class="inlineSvg-menu-path inlineSvg-menu-path_2"
+                                      d="M1.9,8.9h26.3c1,0,1.8-0.8,1.8-1.8s-0.8-1.8-1.8-1.8H1.9c-1,0-1.8,0.8-1.8,1.8S0.9,8.9,1.9,8.9z"/>
+                                <path class="inlineSvg-menu-path inlineSvg-menu-path_3"
+                                      d="M28.1,13.2H1.8C0.8,13.2,0,14,0,15s0.8,1.8,1.8,1.8h26.3c1,0,1.8-0.8,1.8-1.8S29.1,13.2,28.1,13.2z"/>
+                                <rect width="30" height="30" fill="none" ></rect>
+                            </g>
+                            </svg>
+                    </button>
+                    <div class="mastheadSmall-menu-item-drawer mastheadSmall-menu-item-drawer_cover"
+                         data-menu-role="submenu" data-menu-name="hamburger">
+                        <div class="navDrawer">
+{{--                            <div class="navDrawer-actions">--}}
+{{--                                <a href="find-a-location/index.html" class="icon icon_location"></a>--}}
+
+{{--                            </div>--}}
+                            <div class="navDrawer-hd">
+                                <div class="navDrawer-hd-meta">
+                                    <div class="navDrawer-hd-meta-left">
+                                        <a href="#" class="js-masthead-signInModalLauncher">Sign In</a>
+                                    </div>
+                                </div>
+                                {{--                                <div class="navDrawer-hd-meta">--}}
+                                {{--                                    <div class="navDrawer-hd-meta-left">--}}
+                                {{--                                        <div class="in-stock-mobile">--}}
+                                {{--                                            <input type="checkbox" class="field field_checkbox"--}}
+                                {{--                                                   id="js-globalMobileInStockCheckbox"/>--}}
+                                {{--                                            <label class="tooltip label"--}}
+                                {{--                                                   for="js-globalMobileInStockCheckbox">In-stock</label><span--}}
+                                {{--                                                id="js-globalMobileInStockHelp" class="icon icon_questionMark"></span>--}}
+                                {{--                                            <div id="js-globalMobileInStockTooltip" class="tooltip-wrapper">--}}
+                                {{--                                                <span class="tooltiptext">When selected, only items that are in-stock will be shown when navigating the site.</span>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="js-globalMobileInStockTooltipClose">--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                </div>--}}
+
+                            </div>
+                            <div class="navDrawer-bd">
+                                <ul class="pianoList pianoList_flush mix-pianoList_weighted">
+                                    @foreach($data['menu'] as $menu)
+                                        <li data-view="CollapsibleView" class="collapsible collapsed">
+                                            <a href="#" class="quark quark_violator" data-collapsible-role="trigger"
+                                               aria-expanded="false">
+                                            <span class="quark-label quark-label_emphasis">
+                                                {{$menu['name']}}
+                                                <i class="icon icon_arrowDown"></i>
+                                            </span>
+                                            </a>
+                                            <div data-collapsible-role="panel" class="collapsible-panel"
+                                                 aria-hidden="true">
+                                                <div class="linkBox linkBox_inflated mix-linkBox_tinted">
+                                                    <ul class="categoryList">
+                                                        <li>
+                                                        <span class="categoryList-title"><a
+                                                                href="{{url('/get_all_cat/'.$menu['name'])}}"
+                                                                class="hdg hdg_5 mix-hdg_compact">All {{$menu['name']}}</a></span>
+                                                        </li>
+                                                        @foreach($menu['allChildren'] as $sub_menu)
+                                                            <li>
+                                                        <span class="categoryList-title"><a
+                                                                href="{{url('/get_all_cat/'.$sub_menu['name'])}}">{{$sub_menu['name']}}</a></span>
+                                                                <ul>
+                                                                    @foreach($sub_menu['allChildren'] as $children)
+                                                                    <li>
+                                                                        <a href="{{url('/get_all_cat/'.$children['name'])}}"
+                                                                           class="js-mastheadMenu-expander"
+                                                                           data-menu-name="hamburger"
+                                                                           data-menu-prevent-default="false">{{$children['name']}}</a>
+                                                                    </li>
+                                                                    @endforeach
+                                                                </ul>
+                                                            </li>
+                                                        @endforeach
+                                                        {{--                                                    <li>--}}
+                                                        {{--                                                        <span class="categoryList-title"><a--}}
+                                                        {{--                                                                href="new-arrivals/index.html"--}}
+                                                        {{--                                                                class="hdg hdg_5 mix-hdg_compact">NEW ARRIVALS</a></span>--}}
+                                                        {{--                                                    </li>--}}
+                                                        {{--                                                    <li>--}}
+                                                        {{--                                                        <span class="categoryList-title"><a href="custom/index.html"--}}
+                                                        {{--                                                                                            class="hdg hdg_5 mix-hdg_compact">CUSTOM</a></span>--}}
+                                                        {{--                                                    </li>--}}
+                                                        {{--                                                    <li>--}}
+                                                        {{--                                                        <span class="categoryList-title"><a--}}
+                                                        {{--                                                                href="custom/fabrics/index.html"--}}
+                                                        {{--                                                                class="hdg hdg_5 mix-hdg_compact">FABRICS</a></span>--}}
+                                                        {{--                                                    </li>--}}
+                                                        {{--                                                    <li>--}}
+                                                        {{--                                                        <span class="categoryList-title"><a--}}
+                                                        {{--                                                                href="custom/finishes/index.html"--}}
+                                                        {{--                                                                class="hdg hdg_5 mix-hdg_compact">FINISHES</a></span>--}}
+                                                        {{--                                                    </li>--}}
+                                                    </ul>
+                                                    <!-- end .categoryList -->
+                                                </div>
+                                                <!-- end .linkBox -->
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                    <li>
+                                        <a href="#" class="quark quark_violator">
+                                            <span class="quark-label quark-label_emphasis">Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- end .pianoList -->
+                            </div>
+                            {{--                            <div class="navDrawer-ft">--}}
+                            {{--                                <ul class="utilityNav utilityNav_piped">--}}
+                            {{--                                    <li>--}}
+                            {{--                                        <a href="index.html" target="_self">Baker</a>--}}
+                            {{--                                    </li>--}}
+                            {{--                                    <li>--}}
+                            {{--                                        <a href="design-story/milling-road/index.html" target="_self">Milling Road</a>--}}
+                            {{--                                    </li>--}}
+                            {{--                                    <li>--}}
+                            {{--                                        <a href="design-story/mcguire/index.html" target="_self">McGuire</a>--}}
+                            {{--                                    </li>--}}
+                            {{--                                </ul>--}}
+                            {{--              `                   <!-- end .utilityNav -->--}}
+                            {{--                            </div>--}}
+                        </div>
+                        <!-- end .navDrawer -->
+                    </div>
+                    <!-- end .linkBox -->
+                </li>
+                <li class="mastheadSmall-menu-item">
+                    <a class="" href="index.html" title="Go to the home page.">
+                        <img src="{{asset('images/logo.png')}}" alt="Double A Group" itemprop="logo" style="width: 75px;height: 75px"/>
+                    </a>
+                    <!-- end .branding -->
+                </li>
+                {{--                <li class="mastheadSmall-menu-item">--}}
+                {{--                    <button class="btn btn_cylon" data-menu-role="expander" data-menu-name="search">--}}
+                {{--                        <svg class="inlineSvg" version="1.1" xmlns="http://www.w3.org/2000/svg"--}}
+                {{--                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"--}}
+                {{--                             viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve"--}}
+                {{--                             aria-labelledby="searchTitle" role="img">--}}
+                {{--                                <title id="searchTitle">Search the Site</title>--}}
+                {{--                            <g class="inlineSvg-search">--}}
+                {{--                                <path class="inlineSvg-search-path inlineSvg-search-path_1"--}}
+                {{--                                      d="M5.1,6.9l18.6,18.6c0.7,0.7,1.8,0.7,2.5,0s0.7-1.8,0-2.5L7.6,4.4c-0.7-0.7-1.9-0.7-2.6,0C4.4,5.1,4.3,6.2,5.1,6.9z"/>--}}
+                {{--                                <path class="inlineSvg-search-path inlineSvg-search-path_2" d="M11,0.8c-5.3,0-9.6,4.3-9.6,9.6S5.8,20,11,20s9.6-4.4,9.6-9.6S16.2,0.8,11,0.8z M11,16.9c-3.7,0-6.6-2.9-6.6-6.6--}}
+                {{--            S7.3,3.7,11,3.7s6.6,2.9,6.6,6.6S14.6,16.9,11,16.9z"/>--}}
+                {{--                                <path class="inlineSvg-search-path inlineSvg-search-path_3"--}}
+                {{--                                      d="M7.7,4.5C7,3.8,5.8,3.8,5.1,4.5S4.4,6.3,5.1,7l10.2,10.2l2.5-2.5L7.7,4.5z"/>--}}
+                {{--                                <path class="inlineSvg-search-path inlineSvg-search-path_4"--}}
+                {{--                                      d="M26.2,23l-8.3-8.4l-2.6,2.5l8.4,8.4c0.7,0.7,1.8,0.7,2.5,0C26.9,24.9,26.9,23.8,26.2,23z"/>--}}
+                {{--                                <rect width="30" height="30" fill="none"></rect>--}}
+                {{--                            </g>--}}
+                {{--                            </svg>--}}
+                {{--                    </button>--}}
+                {{--                    <div class="mastheadSmall-menu-item-drawer mastheadSmall-menu-item-drawer_showOverflow"--}}
+                {{--                         data-menu-role="submenu" data-menu-name="search">--}}
+                {{--                        <div class="navDrawer">--}}
+                {{--                            <div class="navDrawer-hd">--}}
+                {{--                                <div class="form">--}}
+                {{--                                    <form class="typeahead" action="https://www.bakerfurniture.com/search-results"--}}
+                {{--                                          method="get" role="search" novalidate data-view="AzureTypeaheadView"--}}
+                {{--                                          data-view-options='{ "noInputMessage": "Please enter a search term" }'>--}}
+                {{--                                        <script type="text/x-handlebars-template"--}}
+                {{--                                                class="isHidden js-search-suggestionsTemplate">--}}
+                {{--                                            <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content"--}}
+                {{--                                                tabindex="0"--}}
+                {{--                                                style="display: none; width: 193px; top: 27.5px; left: 0.015625px;">--}}
+                {{--                                                {{#each .}}--}}
+                {{--                                                <li class="ui-menu-item" id="{{ Item_No_Prefix }}" tabindex="-1">--}}
+                {{--                                                    <a href="{{ Url }}">{{ Product_Name }} - {{ Item_No_Prefix }}</a>--}}
+                {{--                                                </li>--}}
+                {{--                                                {{/each}}--}}
+                {{--                                            </ul>--}}
+                {{--                                        </script>--}}
+                {{--                                        <div class="form-item mix-form-item_flat">--}}
+                {{--                                            <label class="isVisuallyHidden" for="siteSearch_mobile">Search</label>--}}
+                {{--                                            <input type="search" name="q" id="siteSearch_mobile"--}}
+                {{--                                                   class="field field_groupInput" data-typeahead-role="input" required/>--}}
+                {{--                                            <button type="submit" value="Search"--}}
+                {{--                                                    class="field field_groupSubmit mix-field_groupSubmit_lg">--}}
+                {{--                                                <i class="icon icon_search"></i>--}}
+                {{--                                            </button>--}}
+                {{--                                        </div>--}}
+                {{--                                        <div data-typeahead-role="dropdown"></div>--}}
+                {{--                                    </form>--}}
+                {{--                                </div>--}}
+                {{--                            </div>--}}
+                {{--                        </div>--}}
+                {{--                        <!-- end .navDrawer -->--}}
+                {{--                    </div>--}}
+                {{--                </li>--}}
+            </ul>
+            <!-- end .mastheadSmall-menu -->
+        </div>
+
         <div class="masthead showAboveSmall" role="banner" data-dispatcher="MastheadDispatcher" itemscope
              itemtype="http://schema.org/Organization">
             <span class="masthead-overlay" id="js-masthead-overlay" style="background-color: #15172c;"></span>
@@ -197,21 +405,38 @@
                     <a class="bg-dark" itemprop="url" href="#"
                        title="Contemporary Furniture">
 
-                        <img src="{{asset('images/logo.png')}}" alt="Baker Furniture" style="width: 130px"/>
+                        <img src="{{asset('images/logo.png')}}" alt="Double A Group" style="width: 130px"/>
                     </a>
                 </h1>
                 <div class="masthead-main-right">
                     <ul class="primaryNav">
                         <li>
                             <a href="#" class="primaryNav-link" data-menu-role="expander" data-menu-name="design"
-                               aria-expanded="false" style="color: white !important">Collections</a>
+                               aria-expanded="false" style="color: white !important">Projects</a>
                             <div class="primaryNav-submenu" data-menu-role="submenu" data-menu-name="design">
                                 <div class="box box_baseOffset">
                                     <div class="vr vr_5x">
                                         <div class="titleBar">
                                             <div
                                                 class="titleBar-hd titleBar-hd_constrained titleBar-hd_constrained_extreme">
-                                                <h4 class="hdg hdg_5 mix-hdg_compact"><a href="design-story/index.html">Collections</a>
+                                                <h4 class="hdg hdg_5 mix-hdg_compact"><a href="design-story/index.html">Projects</a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="primaryNav-link" data-menu-role="expander" data-menu-name="design"
+                               aria-expanded="false" style="color: white !important">Catalog</a>
+                            <div class="primaryNav-submenu" data-menu-role="submenu" data-menu-name="design">
+                                <div class="box box_baseOffset">
+                                    <div class="vr vr_5x">
+                                        <div class="titleBar">
+                                            <div
+                                                class="titleBar-hd titleBar-hd_constrained titleBar-hd_constrained_extreme">
+                                                <h4 class="hdg hdg_5 mix-hdg_compact"><a href="design-story/index.html">Catalog</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -220,38 +445,38 @@
                             </div>
                         </li>
 
-                        <li>
-                            <div class="primaryNav-search">
-                                <form class="typeahead" action="https://www.bakerfurniture.com/search-results"
-                                      method="get" role="search" autocomplete="off" novalidate
-                                      data-view="AzureTypeaheadView"
-                                      data-view-options='{ "noInputMessage": "Please enter a search term" }'>
-                                    <script type="text/x-handlebars-template"
-                                            class="isHidden js-search-suggestionsTemplate">
-                                        <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content"
-                                            tabindex="0">
-                                            {{--                                            {{#each .}}--}}
-                                            {{--                                            <li class="ui-menu-item" id="{{ Item_No_Prefix }}" tabindex="-1">--}}
-                                            {{--                                                <a href="{{ Url }}">{{ Product_Name }}<br/>{{ Item_No_Prefix }}</a>--}}
-                                            {{--                                            </li>--}}
-                                            {{--                                            {{/each}}--}}
-                                        </ul>
-                                    </script>
-                                    <div class="form-item mix-form-item_flat">
-                                        <label class="isVisuallyHidden" for="siteSearch"
-                                               style="color: white;">Search</label>
-                                        <input type="search" name="q" id="siteSearch"
-                                               class="field field_groupInput field_groupInput mix-field_placeholderLow"
-                                               placeholder="Search" data-typeahead-role="input" required/>
-                                        <button type="submit" value="Search"
-                                                class="field field_groupSubmit mix-field_groupSubmit_low">
-                                            <i class="icon icon_search mix-icon_xsm" style="color: white;"></i>
-                                        </button>
-                                    </div>
-                                    <div data-typeahead-role="dropdown"></div>
-                                </form>
-                            </div>
-                        </li>
+{{--                        <li>--}}
+{{--                            <div class="primaryNav-search">--}}
+{{--                                <form class="typeahead" action="https://www.bakerfurniture.com/search-results"--}}
+{{--                                      method="get" role="search" autocomplete="off" novalidate--}}
+{{--                                      data-view="AzureTypeaheadView"--}}
+{{--                                      data-view-options='{ "noInputMessage": "Please enter a search term" }'>--}}
+{{--                                    <script type="text/x-handlebars-template"--}}
+{{--                                            class="isHidden js-search-suggestionsTemplate">--}}
+{{--                                        <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content"--}}
+{{--                                            tabindex="0">--}}
+{{--                                            --}}{{--                                            {{#each .}}--}}
+{{--                                            --}}{{--                                            <li class="ui-menu-item" id="{{ Item_No_Prefix }}" tabindex="-1">--}}
+{{--                                            --}}{{--                                                <a href="{{ Url }}">{{ Product_Name }}<br/>{{ Item_No_Prefix }}</a>--}}
+{{--                                            --}}{{--                                            </li>--}}
+{{--                                            --}}{{--                                            {{/each}}--}}
+{{--                                        </ul>--}}
+{{--                                    </script>--}}
+{{--                                    <div class="form-item mix-form-item_flat">--}}
+{{--                                        <label class="isVisuallyHidden" for="siteSearch"--}}
+{{--                                               style="color: white;">Search</label>--}}
+{{--                                        <input type="search" name="q" id="siteSearch"--}}
+{{--                                               class="field field_groupInput field_groupInput mix-field_placeholderLow"--}}
+{{--                                               placeholder="Search" data-typeahead-role="input" required/>--}}
+{{--                                        <button type="submit" value="Search"--}}
+{{--                                                class="field field_groupSubmit mix-field_groupSubmit_low">--}}
+{{--                                            <i class="icon icon_search mix-icon_xsm" style="color: white;"></i>--}}
+{{--                                        </button>--}}
+{{--                                    </div>--}}
+{{--                                    <div data-typeahead-role="dropdown"></div>--}}
+{{--                                </form>--}}
+{{--                            </div>--}}
+{{--                        </li>--}}
                     </ul>
                     <!-- end .primaryNav -->
                 </div>
@@ -439,14 +664,14 @@
                                                 <h4 class="hdg hdg_4">Explore All Rooms</h4>
                                             </div>
                                             <div class="flexBanner-media">
-                                                <img
-                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                    sizes="
-                                                 (max-width: 667px) calc(100vw - (20px * 2)),
-                                                 (max-width: 1048px) calc(100vw - (60px * 2) - (79.007633588vw + 32px) - (263px + 16px)),
-                                                 533px"
-                                                    srcset="/remote.axd?https://bakerinteriors.blob.core.windows.net/prod-media/421436/mca180l_mca1552_mca1553_rs.jpg?width=553&amp;heightratio=0.22423&amp;mode=crop&amp;anchor=center, /remote.axd?https://bakerinteriors.blob.core.windows.net/prod-media/421436/mca180l_mca1552_mca1553_rs.jpg?width=1066&amp;heightratio=0.22420&amp;mode=crop&amp;anchor=center"
-                                                    alt=" ">
+{{--                                                <img--}}
+{{--                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="--}}
+{{--                                                    sizes="--}}
+{{--                                                 (max-width: 667px) calc(100vw - (20px * 2)),--}}
+{{--                                                 (max-width: 1048px) calc(100vw - (60px * 2) - (79.007633588vw + 32px) - (263px + 16px)),--}}
+{{--                                                 533px"--}}
+{{--                                                    srcset="/remote.axd?https://bakerinteriors.blob.core.windows.net/prod-media/421436/mca180l_mca1552_mca1553_rs.jpg?width=553&amp;heightratio=0.22423&amp;mode=crop&amp;anchor=center, /remote.axd?https://bakerinteriors.blob.core.windows.net/prod-media/421436/mca180l_mca1552_mca1553_rs.jpg?width=1066&amp;heightratio=0.22420&amp;mode=crop&amp;anchor=center"--}}
+{{--                                                    alt=" ">--}}
                                             </div>
                                         </div>
                                     </div>
@@ -649,16 +874,162 @@
         {{--                </div>--}}
         {{--            </div>--}}
         {{--        </div>--}}
-        <div class="tier tier_nocturnal mix-tier_ctr mix-tier_inflated" style="background-color: #15172c" >
+        <div class="tier tier_nocturnal mix-tier_ctr mix-tier_inflated" style="background-color: #15172c">
             <div class="wrapper">
-                <span class="txt txt_callout" >Stay up to date on the latest from Baker Furniture.</span>
+                <span class="txt txt_callout">Stay up to date on the latest from Baker Furniture.</span>
                 <a href="newsletter-sign-up/index.html" class="txt txt_callout mix-txt_upper mix-txt_emphasis">Subscribe
                     to our newsletter</a>
             </div>
         </div>
         <!-- end .tier -->
+
+        <div class="footerSmall hideAboveSmall">
+            <div class="footerSmall-hd">
+                <ul class="taxList">
+                    <li class="taxList-cat">
+                        Contact Us
+                        <ul>
+                            <li><a href="find-a-location/index.html" title="Find A Location">Find a Location Near
+                                    You</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- end .taxList -->
+            </div>
+{{--            <div class="footerSmall-bd">--}}
+{{--                <ul class="pianoList pianoList_flush mix-pianoList_weighted">--}}
+{{--                    <li data-view="CollapsibleView" class="collapsible collapsed">--}}
+{{--                        <a href="#" class="quark quark_violator" data-collapsible-role="trigger" aria-expanded="false">--}}
+{{--                            <span class="quark-label">Resources<i class="icon icon_arrowRight"></i></span>--}}
+{{--                        </a>--}}
+{{--                        <div data-collapsible-role="panel" class="collapsible-panel" aria-hidden="true">--}}
+{{--                            <div class="linkBox linkBox_inflated mix-linkBox_tinted">--}}
+{{--                                <ul class="categoryList">--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/baker-interiors-profile/index.html">Baker Interiors--}}
+{{--                                            Profile</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/literature/index.html">Literature</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/videos/index.html">Videos</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/virtual-showroom-tour/index.html">Virtual Showroom Tour</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/product-care/index.html">Product Care</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/hospitality/index.html">Hospitality</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/comcol-form/index.html" target="_blank" class="">COM/COL--}}
+{{--                                            Form</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/faq/index.html">FAQ</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="resources/compliance/index.html">Compliance</a>--}}
+{{--                                    </li>--}}
+{{--                                </ul>--}}
+{{--                                <!-- end .categoryList -->--}}
+{{--                            </div>--}}
+{{--                            <!-- end .linkBox -->--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                    <li data-view="CollapsibleView" class="collapsible collapsed">--}}
+{{--                        <a href="#" class="quark quark_violator" data-collapsible-role="trigger" aria-expanded="false">--}}
+{{--                            <span class="quark-label">Corporate<i class="icon icon_arrowRight"></i></span>--}}
+{{--                        </a>--}}
+{{--                        <div data-collapsible-role="panel" class="collapsible-panel" aria-hidden="true">--}}
+{{--                            <div class="linkBox linkBox_inflated mix-linkBox_tinted">--}}
+{{--                                <ul class="categoryList">--}}
+{{--                                    <li>--}}
+{{--                                        <a href="corporate/careers/index.html">Careers</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="corporate/legal/index.html">Legal</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="corporate/sitemap/index.html">Sitemap</a>--}}
+{{--                                    </li>--}}
+{{--                                </ul>--}}
+{{--                                <!-- end .categoryList -->--}}
+{{--                            </div>--}}
+{{--                            <!-- end .linkBox -->--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                    <li data-view="CollapsibleView" class="collapsible collapsed">--}}
+{{--                        <a href="#" class="quark quark_violator" data-collapsible-role="trigger" aria-expanded="false">--}}
+{{--                            <span class="quark-label">Related Brands<i class="icon icon_arrowRight"></i></span>--}}
+{{--                        </a>--}}
+{{--                        <div data-collapsible-role="panel" class="collapsible-panel" aria-hidden="true">--}}
+{{--                            <div class="linkBox linkBox_inflated mix-linkBox_tinted">--}}
+{{--                                <ul class="categoryList">--}}
+{{--                                    <li>--}}
+{{--                                        <a href="design-story/milling-road/index.html" target="_self">Milling Road</a>--}}
+{{--                                    </li>--}}
+{{--                                    <li>--}}
+{{--                                        <a href="design-story/mcguire/index.html" target="_self">McGuire</a>--}}
+{{--                                    </li>--}}
+{{--                                </ul>--}}
+{{--                                <!-- end .categoryList -->--}}
+{{--                            </div>--}}
+{{--                            <!-- end .linkBox -->--}}
+{{--                        </div>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--                <!-- end .pianoList -->--}}
+{{--            </div>--}}
+            <div class="footerSmall-ft">
+                <div class="vr vr_4x">
+                    <ul class="hList">
+                        <li>
+                            <a href="http://www.houzz.com/pro/bakerfurniture/baker-furniture" class="icon icon_houzz"
+                               target="_blank">Houzz</a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/bakerfurniture/" class="icon icon_pinterest"
+                               target="_blank">Pinterest</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/BakerFurniture" class="icon icon_facebook"
+                               target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/Bakerfurniture" class="icon icon_youtube"
+                               target="_blank">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/bakerfurniture/" class="icon icon_instagram" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/baker-furniture" class="icon icon_linkedin"
+                               target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- end .hList -->
+                </div>
+                <div class="vList">
+                    <span class="" style="display: grid;justify-content: center">
+                        <a class="" href="index.html"
+                           title="Go to the home page.">
+                        <img src="{{asset('images/logo-pic.jpeg')}}" alt="Double A Group" itemprop="logo" style="width: 75px;height: 75px"/>
+                        </a>
+                    </span>
+                    <span class="txt txt_callout txt_callout_sm mix-txt_upper mix-txt_emphasis">&copy;2022 Double A Group</span>
+                </div>
+                <!-- end .vList -->
+            </div>
+        </div>
         <!-- end .footerSmall -->
-        <div class="footer showAboveSmall" itemscope itemtype="http://schema.org/Organization" style="background-image: none">
+        <div class="footer showAboveSmall" itemscope itemtype="http://schema.org/Organization"
+             style="background-image: none">
             <div class="wrapper">
                 <ul class="dropBlocks dropBlocks_3to5">
                     {{--                    <li>--}}
@@ -861,7 +1232,7 @@
      * @type String
      * @final
      */
-    SETTINGS.SCRIPT_PATH = 'assets/scripts/index.html';
+    // SETTINGS.SCRIPT_PATH = 'assets/scripts/index.html';
 
     SETTINGS.ENDPOINTS = {
         ACCOUNT: {
@@ -880,10 +1251,10 @@
         STORY: {
             GET_STORIES: '/umbraco/Api/DesignerConnectionApi/GetDesignerConnections'
         },
-        LOCATION: {
-            GET_NORTH_AMERICAN_LOCATIONS: '/umbraco/Api/LocationApi/GetNorthAmericanLocations',
-            GET_INTERNATIONAL_LOCATIONS: '/umbraco/Api/LocationApi/GetInternationalLocations'
-        },
+        // LOCATION: {
+        //     GET_NORTH_AMERICAN_LOCATIONS: '/umbraco/Api/LocationApi/GetNorthAmericanLocations',
+        //     GET_INTERNATIONAL_LOCATIONS: '/umbraco/Api/LocationApi/GetInternationalLocations'
+        // },
         PRODUCT: {
             EMAIL_PRODUCT: '/umbraco/Surface/EmailShare/EmailProduct',
             GET_PRODUCTS: '/umbraco/Api/ProductApi/GetProducts',
@@ -919,21 +1290,21 @@
 <script src="{{asset('assets/scripts/main625b.js')}}"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>
 
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 847585735;
-    var google_custom_params = window.google_tag_params;
-    var google_remarketing_only = true;
-    /* ]]> */
-</script>
-<script type="text/javascript" src="../www.googleadservices.com/pagead/f.txt">
-</script>
-<noscript>
-    <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt=""
-             src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/847585735/?guid=ON&amp;script=0"/>
-    </div>
-</noscript>
+{{--<script type="text/javascript">--}}
+{{--    /* <![CDATA[ */--}}
+{{--    var google_conversion_id = 847585735;--}}
+{{--    var google_custom_params = window.google_tag_params;--}}
+{{--    var google_remarketing_only = true;--}}
+{{--    /* ]]> */--}}
+{{--</script>--}}
+{{--<script type="text/javascript" src="../www.googleadservices.com/pagead/f.txt">--}}
+{{--</script>--}}
+{{--<noscript>--}}
+{{--    <div style="display:inline;">--}}
+{{--        <img height="1" width="1" style="border-style:none;" alt=""--}}
+{{--             src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/847585735/?guid=ON&amp;script=0"/>--}}
+{{--    </div>--}}
+{{--</noscript>--}}
 
 </body>
 

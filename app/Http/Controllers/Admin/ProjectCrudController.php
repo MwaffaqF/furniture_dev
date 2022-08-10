@@ -77,7 +77,8 @@ class ProjectCrudController extends CrudController
             'label' => 'Banner Image',
             'type' => 'upload_multiple',
             'upload' => true,
-        ]);        CRUD::field('images_description');
+        ]);
+        CRUD::field('images_description');
         $this->crud->addField([
                 'name'            => 'video',
                 'label'           => 'Link for A Youtube video',

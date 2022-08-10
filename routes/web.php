@@ -19,5 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('website.index');
 Route::get('/get_all_cat/{name}', [\App\Http\Controllers\HomeController::class,'getAllCategories'])->name('website.all.categories');
+Route::get('/item/{id}', [\App\Http\Controllers\HomeController::class,'getItem'])->name('website.item');
 
 Route::get('/admin/category/get_category_children', [\App\Http\Controllers\Admin\CategoryCrudController::class, 'get_category_children'])->name('category.children.get');
+Route::get('/admin/category/get_category_2_children', [\App\Http\Controllers\Admin\ItemCrudController::class, 'get_category_children'])->name('category.2.children.get');

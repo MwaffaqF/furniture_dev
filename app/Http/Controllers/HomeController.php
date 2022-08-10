@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Brand;
 use App\Models\Category;
+use App\Models\Item;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -29,5 +30,15 @@ class HomeController extends Controller
 
 
         return view('website.category_all', compact('data'));
+    }
+
+    public function getItem($id)
+    {
+//        dd($id);
+        $data['menu'] = Category::with('allChildren')->where('parent_id', null)->get();
+        $data['item'] = Item::with('colors')->where('id', $id)->first();
+
+        return view('website.item', compact('data'));
+
     }
 }

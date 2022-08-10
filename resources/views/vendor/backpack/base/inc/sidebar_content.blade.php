@@ -4,3 +4,9 @@
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('glossary') }}'><i class='nav-icon la la-book'></i> Glossaries</a></li>
 {{--<li class='nav-item'><a class='nav-link' href='{{ backpack_url('brand') }}'><i class='nav-icon la la-question'></i> Brands</a></li>--}}
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('project') }}'><i class='nav-icon la la-project-diagram'></i> Projects</a></li>
+
+{{--<li class='nav-item'><a class='nav-link' href='{{ backpack_url('item') }}'><i class='nav-icon la la-shopping-bag'></i> Items</a></li>--}}
+
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('color') }}'><i class='nav-icon la la-brush'></i> Colors</a></li>
+
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('item') }}'><i class='nav-icon la la-shopping-bag'></i> Items</a></li>

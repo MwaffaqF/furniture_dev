@@ -48,6 +48,10 @@
 
 	          @include('crud::inc.form_save_buttons')
 		  </form>
+
+        @if(request()->route()->getName() == "item.create")
+        <input type="hidden" name="hidden_route" id="hidden_route" value="{{request()->route()->getName()}}">
+        @endif
 	</div>
 </div>
 

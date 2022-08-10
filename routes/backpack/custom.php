@@ -21,4 +21,6 @@ Route::group([
     Route::crud('brand', 'BrandCrudController');
     Route::crud('project', 'ProjectCrudController');
     Route::get('/admin/',[\Backpack\CRUD\app\Http\Controllers\AdminController::class, 'login']);
+    Route::crud('item', 'ItemCrudController');
+    Route::crud('color', 'ColorCrudController');
 }); // this should be the absolute last line of this file
